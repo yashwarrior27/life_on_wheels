@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&family=Inspiration&family=Kaushan+Script&family=Satisfy&display=swap');
+.border-nav{
+    border-right: 2px solid ;
+}
+.textcolor{
+    color: rgb(213,179,107);
+    font-size: 12px !important;
+    font-weight: 500;
+}
+.homebackground{
+    margin-top: 55px;
+    height:650px !important;
+    background-image:url(../assets/lifeonwheel.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.body-margin{
+    margin-top: 110px;
+}
+.logo-img{
+    max-width: 30%;
+}
+.act{
+    color: rgb(184,11,53);
+}
+.color1{
+    color:#641f47;
+}
+.color2{
+    color: #b7213d;
+}
+.color3{
+    color: #ffdf87;
+}
+
+.logo-text{
+    color:  rgb(213,179,107);
+    font-family: 'Inspiration', cursive;
+    font-size: 4.8vmax;
+    font-weight: 500px; 
+    text-shadow: 0px 2px 3px rgb(0 0 0 / 60%);
+}
+.nav-img{
+    max-width: 155px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: 0;
+}
+.nav-img-small{
+    max-width: 50px;
+    position: absolute;
+    left: 10px;
+    top: 0;
+    padding: 0;
+}
+.nav-img2{
+    max-width: 100%;
+    transform: translateY(-55px);
+
+}
+.about-main-text{
+    text-shadow: 0px 1px 1px rgb(0 0 0 / 60%);
+    transform: translateY(-20px);
+}
+.about-head-text{
+    font-family: 'Satisfy', cursive;
+}
+.about-head-text2{
+    font-family: 'Kaushan Script', cursive;
+}
+.about-content-img{
+    max-width: 70%;
+}
+.contact-main-text{
+    transform: translateY(-20px);
+}
+.card1{
+    transform: scale(1);
+    color: black;
+    transition: all .18s;
+    box-shadow: 0 0 1px transparent;
+    
+        
+    }
+    .card1:hover{
+        transform:  scale(1.1);
+        background-color: white !important;
+        z-index: 5;
+        box-shadow: 0px 0px 10px rgb(0 0 0 / 15%);
+      color: #b7213d;
+        cursor: pointer;
+    }
+    .text-font{
+        font-family: 'Edu VIC WA NT Beginner', cursive;
+    }
+    .contact-img{
+        height: 650px !important;
+        background-position: center;
+        background-size: cover;
+        background-image: linear-gradient(rgba(0,56,70,.7),rgba(0,56,70,.7)),url(../assets/person-traveling-road\ \(1\).jpg); /*warrior27*/
+    }
+    .textcolor2{
+        text-shadow: 0px 1px 1px rgb(0 0 0 / 60%);
+        color: #ffdf87;
+    }
+    .insta{
+        background: radial-gradient(circle farthest-corner at 32% 106%, rgb(255, 225, 125) 0%, rgb(255, 205, 105) 10%, rgb(250, 145, 55) 28%, rgb(235, 65, 65) 42%, transparent 82%), linear-gradient(135deg, rgb(35, 75, 215) 12%, rgb(195, 60, 190) 58%);
+    }
+    .chrome{
+        color: #FF2525;
+    }
+    @media only screen and (max-width: 400px) {
+        .textcolor{
+            font-size: 10px !important;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .logo-img{
+            max-width: 40%;
+        }
+        .logo-text{
+            color:  rgb(213,179,107);
+            font-family: 'Inspiration', cursive;
+            font-size: 5.5vmax;
+            font-weight: 500px; 
+            text-shadow: 0px 2px 3px rgb(0 0 0 / 60%);
+        }
+    }
+    @media only screen and (max-width: 1000px) {
+
+        .nav-img2{
+    max-width: 100%;
+    transform: translateY(-40px);
+
+}
+    }
+    @media only screen and (max-width: 767px) {
+
+        .nav-img2{
+    max-width: 100%;
+    transform: translateY(-12px);
+
+}
+    }
